@@ -2,7 +2,7 @@ var inquirer = require("inquirer");
 var fs = require("fs");
 
 var basicCard = require("./basicCard.js");
-//var clozeCard = require("./clozeCard.js");
+var clozeCard = require("./clozeCard.js");
 
 //Basic Card constructor
 

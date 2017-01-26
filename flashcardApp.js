@@ -4,15 +4,6 @@ var fs = require("fs");
 var basicCard = require("./basicCard.js");
 //var clozeCard = require("./clozeCard.js");
 
-//Basic Card constructor
-
-
-function BasicCard(front, back) {
-    console.log("basic card questions!");
-    this.front = front;
-    this.back = back;
-};
-
 var count = 0;
 
 var askCardType = function() {
@@ -32,10 +23,22 @@ var askCardType = function() {
         } else if (userInputs.chooseType === "Cloze") {
             console.log("user chosse Cloze");
             //askClozeQuestions();
+        }else{
+            askCardType();
         }
     });
 }
+//this function call is needed in order to go futher
 askCardType();
+
+//Basic Card constructor
+function BasicCard(front, back) {
+    console.log("basic card questions!");
+    this.front = front;
+    this.back = back;
+};
+
+
 
 function askBasicQuestions() {
     var newCard = new BasicCard(basicCard.basicQuestion[count].front,
@@ -81,4 +84,4 @@ function basicStartOver(){
 	}
 }
 
-//basicStartOver();
+basicStartOver();
