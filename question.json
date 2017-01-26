@@ -1,0 +1,15 @@
+//some history before Hong Kong handback to China July 1, 1997
+//information from: https://en.wikipedia.org/wiki/Governor_of_Hong_Kong
+
+var question_1 = new ClozeCard("Pattern", "was the last Governor of Hong Kong.");
+var question_2 = new ClozeCard("Wilson", "loves hiking.");
+var question_3 = new ClozeCard("Akers-Jones", "was the acting Governor from December 1986 to April 1987.");
+var question_4 = new ClozeCard("Youde", "past away from heart attack.");
+var question_5 = new ClozeCard("Trench", "was origined from India");
+
+//basicCard
+var question_1 = new BasicCard("Who was the last Governor of Hong Kong?", "Pattern.");
+var question_2 = new BasicCard("Which Governor loves hiking?", "Wilson.");
+var question_3 = new BasicCard("Who was the acting Governor from Dec, 1986 to Apr, 1987?", "Akers-Jones.");
+var question_4 = new BasicCard("Which Governor past away from heart attack?", "Youde.");
+var question_5 = new BasicCard("Which Governor was origined from India?", "Trench.");

@@ -1,0 +1,23 @@
+{
+  "name": "kitflashcardassignment",
+  "version": "1.0.0",
+  "description": "basicorcloze",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gladys1230/flashcard.git"
+  },
+  "author": "kitchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gladys1230/flashcard/issues"
+  },
+  "homepage": "https://github.com/gladys1230/flashcard#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^3.0.1"
+  }
+}
